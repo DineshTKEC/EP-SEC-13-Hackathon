@@ -1,0 +1,15 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             version="2.1">
+    <persistence-unit name="airline">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>com.airline.reservation.model.Passenger</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/airline"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="Varun@11"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>
