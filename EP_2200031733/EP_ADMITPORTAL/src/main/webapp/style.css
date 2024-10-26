@@ -1,0 +1,64 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-university-admissions-association-recruits-new-image_169447.jpg");
+	background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    color: #ff4500; /* Blue color for the heading */
+    margin-top: 40px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff; /* White text color */
+    background-color: #4a90e2; /* Blue background color for links */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #3276b1; /* Darker blue background color on hover */
+}
+
+/* Styrgb(252, 247, 154), 119, 112), 0, 0), 0, 0)nks inside the h1 element */
+h1 a {
+    color: #ff4500; /* Blue text color for links inside h1 */
+    background-color: transparent;
+}
+
+/* Styling links inside the navigation bar */
+nav a {
+    background-color: #222; /* Dark grey background color for links in nav */
+}
+
+/* Centering the navigation bar */
+nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Adding spacing between navigation links */
+nav a {
+    margin: 10px;
+}
+
+/* Applying some specific styles to individual links */
+a[href="applicationForm.jsp"],
+a[href="register.jsp"],
+a[href="login.jsp"],
+a[href="colleges.jsp"],
+a[href="studentInfo.jsp"],
+a[href="eligibilityCriteria.jsp"]  {
+    background-color: #4caf50; /* Green background color for these links */
+}
